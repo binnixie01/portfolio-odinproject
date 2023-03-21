@@ -1,6 +1,6 @@
 .pic1{
     width: 200px;
-    padding-right: 10rem;
+    /* padding-right: 10rem; */
 }
 
 .sec1{
@@ -15,12 +15,14 @@
     justify-content: space-between;
     padding-bottom: 10rem;
     align-items: center;
+    gap: 3rem;
 
 
 }
 
 .logo{
-    padding-left: 10rem;
+    flex: auto;
+    padding-left: 10%;
     color: #f9faf8;
 }
 .head{
@@ -35,15 +37,16 @@
 .content{
     display:flex;
     justify-content:space-between;
-    padding-bottom: 5rem;
-    /* flex-wrap: wrap; */
-    flex: auto;
+    padding: 5rem;
+    flex-wrap: wrap;
+    /* flex: auto; */
+    gap: 7rem;
 }
 ul{
     list-style: none;
     display: flex;
-    gap: 5rem;
-    padding: 0 10rem 0 0 ;
+    gap: 2rem;
+    padding: 0 4rem 0 0 ;
     margin: 0;
 
     
@@ -60,8 +63,16 @@ body{
     flex-direction: column;
 }
 .left{
-    padding-left: 10rem;
+    margin: auto;
     width: 30%;
+    flex: auto;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+    /* width: 30%; */
 }
 button{
     background-color: #3882f6;
